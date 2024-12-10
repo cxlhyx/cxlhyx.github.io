@@ -1,3 +1,9 @@
+以下所有命令需在GoogleScholarPapersBibTex文件夹下运行。
+
+```
+cd GoogleScholarPapersBibTex
+```
+
 ## 1、前端
 
 ```
