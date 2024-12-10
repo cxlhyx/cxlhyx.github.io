@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 元信息和样式 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoogleScholar Papers BibTex</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- 页面主容器 -->
+    <div class="container">
+        <!-- 标题 -->
+        <h1>
+            GoogleScholar 
+            <br>
+            Papers BibTex
+        </h1>
+        
+        <!-- 表单 -->
+        <form id="spiderForm">
+            <div class="form-group">
+                <label for="papers">Papers</label>
+                <textarea id="papers" placeholder="Enter papers, one per line..." rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="button" id="runSpider">Run</button>
+            </div>
+        </form>
+
+        <!-- 文件输入和下载按钮容器 -->
+        <div class="button-container">
+            <!-- 文件输入框 -->
+            <input type="file" id="fileInput" accept=".txt" />
+            <!-- 下载按钮 -->
+            <button type="button" id="downloadZip">Download</button>
+        </div>
+    </div>
+    <!-- 脚本 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
