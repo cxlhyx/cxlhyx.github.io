@@ -1,2 +1,0 @@
-Attention is all you need
-Yan, E., Zhang, T., Yu, J., Hao, T., Chen, Q., 2024. A preliminary study on few-shot knowledge reasoning mechanism based on three-way partial order structure. Information Sciences 665, 120366. https://doi.org/10.1016/j.ins.2024.120366
