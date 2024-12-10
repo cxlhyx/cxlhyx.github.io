@@ -10,6 +10,13 @@ class MySpider:
     def __init__(self):
         option = webdriver.FirefoxOptions()
         option.add_argument("--headless")
+        profile = webdriver.FirefoxProfile(
+            r"C:\Users\12977\AppData\Roaming\Mozilla\Firefox\Profiles\ligb9uiu.default-release"
+        )
+        profile.set_preference("dom.webdriver.enabled", False)
+        profile.set_preference("useAutomationExtension", False)
+        profile.update_preferences()
+        option._profile = profile
         self.driver = webdriver.Firefox(options=option)  # 打开火狐浏览器
 
     def __del__(self):
