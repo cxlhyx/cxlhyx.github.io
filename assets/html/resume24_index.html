@@ -1,0 +1,30 @@
+"Hello World"
+<br>
+<label for="resumes">resume:</label>
+<select id="resumes" name="resumes" onchange="redirect()">
+    <option value="">请选择</option>
+    <option value="hyx">hyx</option>
+    <!--<option value="cxl">cxl</option>-->
+</select>
+
+<script>
+function redirect() {
+    var select = document.getElementById("resumes");
+    var selectedValue = select.value;
+
+    switch (selectedValue) {
+        case "hyx":
+            window.location.href = "resume/index.html";
+            break;
+        //case "cxl":
+            //window.location.href = "bb_resume/index.html";
+            //break;
+        default:
+            // 可以选择不做任何操作，或者保持在当前页面
+            break;
+    }
+
+    // 在跳转前重置选择框的值
+    select.selectedIndex = 0; // 将选择框重置为“请选择”
+}
+</script>
