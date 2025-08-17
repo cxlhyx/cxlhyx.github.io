@@ -6,11 +6,11 @@ subtitle: <a href='#'>Undergraduate Student</a>. South China Normal University
 
 profile:
   align: right
-  image: xian.png
+  image: hyx_xian.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>15889183123</p>
-    <p>cxlhyx1297767084@gmail.com</p>
+    <p>Tel/Wechat: 15889183123</p>
+    <p>Email:cxlhyx1297767084@gmail.com</p>
     <p>SCNU, Guangzhou, Guangdong, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
